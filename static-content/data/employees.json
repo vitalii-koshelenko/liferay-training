@@ -1,0 +1,134 @@
+[
+  {
+    "employeeId": 1,
+    "firstName": "Juha",
+    "lastName": "Ahola-Olli",
+    "email": "juha.ahola-olli@solteq.com",
+    "jobTitle": "Head of Business Solutions",
+    "phoneNumber": "+358505574550",
+    "companyName": "solteqoyj",
+    "department": "businesssolutions",
+    "workLocation": "jyvaskyla"
+  },
+  {
+    "employeeId": 2,
+    "firstName": "Diego",
+    "lastName": "Ballve",
+    "email": "diego.ballve@solteq.com",
+    "jobTitle": "Solution Architect",
+    "phoneNumber": "+358504906435",
+    "companyName": "solteqoyj",
+    "department": "businesssolutions",
+    "workLocation": "jyvaskyla"
+  },
+  {
+    "employeeId": 3,
+    "firstName": "Vitalii",
+    "lastName": "Koshelenko",
+    "email": "vitalii.koshelenko@solteq.com",
+    "jobTitle": "Liferay DXP Architect",
+    "phoneNumber": "+380958509582",
+    "companyName": "solteqpoland",
+    "department": "businesssolutions",
+    "workLocation": "bratislava"
+  },
+  {
+    "employeeId": 4,
+    "firstName": "Lauri",
+    "lastName": "Palmén",
+    "email": "lauri.palmen@solteq.com",
+    "jobTitle": "Software Developer",
+    "phoneNumber": "+358405709975",
+    "companyName": "solteqoyj",
+    "department": "frontend",
+    "workLocation": "tampere"
+  },
+  {
+    "employeeId": 5,
+    "firstName": "Gayan",
+    "lastName": "Kangaraarachchi",
+    "email": "gayan.kangaraarachchi@solteq.com",
+    "jobTitle": "Software Developer",
+    "phoneNumber": "+358504767230",
+    "companyName": "solteqoyj",
+    "department": "businesssolutions",
+    "workLocation": "turku"
+  },
+  {
+    "employeeId": 6,
+    "firstName": "Juhani",
+    "lastName": "Lahti",
+    "email": "juhani.lahti@solteq.com",
+    "jobTitle": "Lead Developer",
+    "phoneNumber": "+358405533949",
+    "companyName": "solteqoyj",
+    "department": "businesssolutions",
+    "workLocation": "jyvaskyla"
+  },
+  {
+    "employeeId": 7,
+    "firstName": "Juho",
+    "lastName": "Järvi",
+    "email": "juho.jarvi@solteq.com",
+    "jobTitle": "Software Developer",
+    "phoneNumber": "+358400957854",
+    "companyName": "solteqoyj",
+    "department": "businesssolutions",
+    "workLocation": "jyvaskyla"
+  },
+  {
+    "employeeId": 8,
+    "firstName": "Pentti",
+    "lastName": "Koskela",
+    "email": "pentti.koskela@solteq.com",
+    "jobTitle": "Solution Architect",
+    "phoneNumber": "+358404184404",
+    "companyName": "solteqoyj",
+    "department": "businesssolutions",
+    "workLocation": "jyvaskyla"
+  },
+  {
+    "employeeId": 9,
+    "firstName": "Joonas",
+    "lastName": "Budde",
+    "email": "joonas.budde@solteq.com",
+    "jobTitle": "Software Developer",
+    "phoneNumber": "+358407022461",
+    "companyName": "solteqoyj",
+    "department": "frontend",
+    "workLocation": "tampere"
+  },
+  {
+    "employeeId": 10,
+    "firstName": "Mangalam",
+    "lastName": "Krishnan",
+    "email": "mangalam.krishnan@solteq.com",
+    "jobTitle": "Developer",
+    "phoneNumber": "+358451454132",
+    "companyName": "solteqoyj",
+    "department": "frontend",
+    "workLocation": "espoo"
+  },
+  {
+    "employeeId": 11,
+    "firstName": "Nhan",
+    "lastName": "Nguyen",
+    "email": "nhan.nguyen@solteq.com",
+    "jobTitle": "Frontend Developer",
+    "phoneNumber": "+358413194789",
+    "companyName": "solteqoyj",
+    "department": "frontend",
+    "workLocation": "espoo"
+  },
+  {
+    "employeeId": 12,
+    "firstName": "Mikko",
+    "lastName": "Wilmi",
+    "email": "mikko.wilmi@solteq.com",
+    "jobTitle": "Senior Software Developer",
+    "phoneNumber": "+358453551525",
+    "companyName": "solteqoyj",
+    "department": "businesssolutions",
+    "workLocation": "jyvaskyla"
+  }
+]
