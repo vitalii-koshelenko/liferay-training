@@ -1,0 +1,4 @@
+Bundle-Name: Solteq Liferay Training Employees Repository API
+Bundle-SymbolicName: com.solteq.liferay.training.employees.repository
+Bundle-Version: 1.0.0
+Export-Package: com.solteq.liferay.training.employees.repository.api

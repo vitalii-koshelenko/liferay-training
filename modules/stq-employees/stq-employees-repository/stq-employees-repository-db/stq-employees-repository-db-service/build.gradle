@@ -1,0 +1,15 @@
+dependencies {
+	api project(":modules:stq-employees:stq-employees-repository:stq-employees-repository-db:stq-employees-repository-db-api")
+
+    compileOnly project(":modules:stq-common:stq-common-liferay:stq-common-liferay-api")
+    compileOnly project(":modules:stq-employees:stq-employees-domain:stq-employees-domain-api")
+    compileOnly project(":modules:stq-employees:stq-employees-repository:stq-employees-repository-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../stq-employees-repository-db-api/src/main/java"
+}
+
+group = "com.solteq.liferay.training.employees.repository.db"

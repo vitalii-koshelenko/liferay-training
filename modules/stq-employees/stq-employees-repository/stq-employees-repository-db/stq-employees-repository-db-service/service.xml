@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.4.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_4_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.solteq.liferay.training.employees.repository.db">
+
+    <author>Solteq</author>
+    <namespace>stq</namespace>
+
+	<entity name="STQEmployee" local-service="true" remote-service="false">
+
+		<!-- PK fields -->
+		<column name="employeeId" primary="true" type="long" />
+
+        <!-- Liferay Instance ID -->
+		<column name="companyId" type="long" />
+
+		<!-- Other fields -->
+		<column name="firstName" type="String" />
+		<column name="lastName" type="String" />
+		<column name="email" type="String" />
+		<column name="jobTitle" type="String" />
+		<column name="phoneNumber" type="String" />
+		<column name="companyName" type="String" />
+		<column name="department" type="String" />
+		<column name="workLocation" type="String" />
+
+		<!-- Finder methods -->
+        <finder name="Email" return-type="STQEmployee" unique="true">
+            <finder-column name="email" />
+        </finder>
+        <finder name="Department" return-type="Collection">
+            <finder-column name="department" />
+        </finder>
+        <finder name="CompanyName" return-type="Collection">
+            <finder-column name="companyName" />
+        </finder>
+
+	</entity>
+
+</service-builder>

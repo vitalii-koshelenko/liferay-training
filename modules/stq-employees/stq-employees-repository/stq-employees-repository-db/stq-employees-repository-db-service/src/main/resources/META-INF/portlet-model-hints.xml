@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.solteq.liferay.training.employees.repository.db.model.STQEmployee">
+		<field name="employeeId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="firstName" type="String">
+			<sanitize content-type="text/html" modes="ALL" />
+		</field>
+		<field name="lastName" type="String">
+			<sanitize content-type="text/html" modes="ALL" />
+		</field>
+		<field name="email" type="String">
+			<sanitize content-type="text/html" modes="ALL" />
+		</field>
+		<field name="jobTitle" type="String">
+			<sanitize content-type="text/html" modes="ALL" />
+		</field>
+		<field name="phoneNumber" type="String">
+			<sanitize content-type="text/html" modes="ALL" />
+		</field>
+		<field name="companyName" type="String">
+			<sanitize content-type="text/html" modes="ALL" />
+		</field>
+		<field name="department" type="String">
+			<sanitize content-type="text/html" modes="ALL" />
+		</field>
+		<field name="workLocation" type="String">
+			<hint name="max-length">100</hint>
+			<sanitize content-type="text/html" modes="ALL" />
+		</field>
+	</model>
+</model-hints>

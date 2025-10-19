@@ -1,0 +1,6 @@
+Bundle-Name: Solteq Liferay Training Employees Repository DB Service
+Bundle-SymbolicName: com.solteq.liferay.training.employees.repository.db.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+-dsannotations-options: inherit

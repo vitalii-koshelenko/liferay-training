@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "email": {
+      "type": "keyword"
+    },
+    "phoneNumber": {
+      "type": "keyword"
+    },
+    "jobTitle": {
+      "type": "keyword"
+    }
+  }
+}

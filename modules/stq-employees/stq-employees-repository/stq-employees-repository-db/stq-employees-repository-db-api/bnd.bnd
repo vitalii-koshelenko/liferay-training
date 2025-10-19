@@ -1,0 +1,10 @@
+Bundle-Name: Solteq Liferay Training Employees Repository DB API
+Bundle-SymbolicName: com.solteq.liferay.training.employees.repository.db.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.solteq.liferay.training.employees.repository.db.exception,\
+	com.solteq.liferay.training.employees.repository.db.model,\
+	com.solteq.liferay.training.employees.repository.db.service,\
+	com.solteq.liferay.training.employees.repository.db.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../stq-employees-repository-db-service/service.xml

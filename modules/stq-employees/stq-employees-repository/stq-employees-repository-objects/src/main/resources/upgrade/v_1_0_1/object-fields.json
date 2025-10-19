@@ -1,0 +1,71 @@
+[
+  {
+    "listTypeDefinitionExternalReferenceCode": "COMPANY_NAME",
+    "indexed": true,
+    "defaultValue": "null",
+    "localized": false,
+    "objectFieldSettings": [],
+    "readOnly": "false",
+    "DBType": "String",
+    "label": {
+      "en_US": "Company Name"
+    },
+    "type": "String",
+    "required": true,
+    "externalReferenceCode": "COMPANY_NAME",
+    "indexedAsKeyword": false,
+    "system": false,
+    "indexedLanguageId": "en_US",
+    "unique": false,
+    "name": "companyName",
+    "state": false,
+    "businessType": "Picklist",
+    "readOnlyConditionExpression": ""
+  },
+  {
+    "listTypeDefinitionExternalReferenceCode": "DEPARTMENT",
+    "indexed": true,
+    "defaultValue": "null",
+    "localized": false,
+    "objectFieldSettings": [],
+    "readOnly": "false",
+    "DBType": "String",
+    "label": {
+      "en_US": "Department"
+    },
+    "type": "String",
+    "required": true,
+    "externalReferenceCode": "DEPARTMENT",
+    "indexedAsKeyword": false,
+    "system": false,
+    "indexedLanguageId": "en_US",
+    "unique": false,
+    "name": "department",
+    "state": false,
+    "businessType": "Picklist",
+    "readOnlyConditionExpression": ""
+  },
+  {
+    "listTypeDefinitionExternalReferenceCode": "WORK_LOCATION",
+    "indexed": true,
+    "defaultValue": "null",
+    "localized": false,
+    "objectFieldSettings": [],
+    "readOnly": "false",
+    "DBType": "String",
+    "label": {
+      "en_US": "Work Location"
+    },
+    "type": "String",
+    "required": true,
+    "externalReferenceCode": "WORK_LOCATION",
+    "indexedAsKeyword": false,
+    "system": false,
+    "indexedLanguageId": "en_US",
+    "unique": false,
+    "name": "workLocation",
+    "state": false,
+    "businessType": "Picklist",
+    "readOnlyConditionExpression": ""
+  }
+]

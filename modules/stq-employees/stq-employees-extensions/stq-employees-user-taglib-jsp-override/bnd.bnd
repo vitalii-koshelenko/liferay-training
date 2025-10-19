@@ -1,0 +1,4 @@
+Bundle-Name: Solteq Liferay Training Employees User Taglib JSP Override
+Bundle-SymbolicName: com.solteq.liferay.training.employees.user.taglib.jsp.override
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.user.taglib;bundle-version="[2.0.0,3.0.0)"

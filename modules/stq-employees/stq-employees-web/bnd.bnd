@@ -1,0 +1,8 @@
+Bundle-Name: Solteq Liferay Training Employees Web
+Bundle-SymbolicName: com.solteq.liferay.training.employees.web
+Bundle-Version: 1.0.0
+Export-Package: com.solteq.liferay.training.employees.web.constants
+Import-Package: com.solteq.liferay.training.employees.domain.model,*
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
