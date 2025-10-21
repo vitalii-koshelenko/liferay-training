@@ -16,7 +16,7 @@ In the scope of this module, the UI layer for Employee Registry should be implem
 
 ### Instructions
 
-#### 1.1. Widget Module Generation
+#### 2.1. Widget Module Generation
 
 Navigate to `modules` directory in the project's workspace.
 
@@ -26,7 +26,7 @@ Generate an `mvc-portlet` module with Blade CLI:
 
 Explore the generated sourced, deploy the widget module and add it to a portal page.
 
-#### 1.2. Displaying Employees
+#### 2.2. Displaying Employees
 
 Add dependency on `stq-employees-domain-api` module.
 
@@ -135,7 +135,7 @@ Render a list of employees on the `view.jsp`:
 </div>
 ```
 
-#### 1.3. Pagination and Filtering
+#### 2.3. Pagination and Filtering
 
 Copy `constants`, `enumeration` and `filter` packages from the final version to the Domain API.
 
@@ -305,7 +305,7 @@ Check if `java.lang.ClassNotFoundException: com.solteq.liferay.training.employee
 
 Add `Import-Package: com.solteq.liferay.training.employees.domain.model,*` to web module's `bnd.bnd`.
 
-#### 1.4. Actions
+#### 2.4. Actions
 
 Implement actions to View Details, Edit and Delete employees. Also, add a button to create new employees.
 
